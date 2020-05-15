@@ -1,0 +1,30 @@
+{
+  "name": "api4-project",
+  "version": "1.0.0",
+  "description": "deploying first app to heroku",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munal92/node-api4-project.git"
+  },
+  "author": "fatih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munal92/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/munal92/node-api4-project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
