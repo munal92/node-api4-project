@@ -13,8 +13,11 @@ router.use((req,res,next) => {
 
 router.get('/', (req,res) => {
     //res.status(200).json({message: 'api working'})
+   
     res.status(200).json(dataToDo);
 })
+
+
 
 
 
