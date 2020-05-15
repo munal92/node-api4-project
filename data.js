@@ -1,15 +1,16 @@
+const shortid = require("shortid");
 data = [
 {
-    id: 1,
+    id: shortid.generate(),
     todo: "Buy milk"
 }
 ,
 {
-    id: 2,
+    id: shortid.generate(),
     todo: "Buy apple"
 },
 {
-    id: 3,
+    id: shortid.generate(),
     todo: "Buy bread"
 }
 
